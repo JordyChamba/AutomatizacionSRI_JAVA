@@ -1,0 +1,15 @@
+com\automotizacion\download\ComprobanteSelector.class
+com\automotizacion\App.class
+com\automotizacion\config\Config.class
+com\automotizacion\download\RetencionesDownloader.class
+com\automotizacion\driver\ChromeDriverManager.class
+com\automotizacion\navegation\LoginHandler.class
+com\automotizacion\download\ComprobanteSelector$ConfigComprobante.class
+com\automotizacion\download\MonthSelector.class
+com\automotizacion\processing\PdfProcessor$Resultado.class
+com\automotizacion\download\MonthSelector$ParAnioMesDia.class
+com\automotizacion\excel\ExcelGenerator.class
+com\automotizacion\navegation\NavigationHandler.class
+com\automotizacion\processing\PdfDataExtractor.class
+com\automotizacion\SriRetencionesApp.class
+com\automotizacion\processing\PdfProcessor.class
