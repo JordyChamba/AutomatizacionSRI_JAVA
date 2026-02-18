@@ -1,0 +1,20 @@
+Asunto: [ACCIÓN REQUERIDA] Reescritura de historial por secreto expuesto
+
+Hola equipo,
+
+Se ha detectado una API key de Google expuesta y he reescrito el historial del repositorio para eliminarla.
+
+Acciones que deben realizar inmediatamente:
+1) Revocar cualquier copia local que contenga la clave y reemplazarla por la nueva clave (si aplica).
+2) Reclonar el repositorio (NO hacer `git pull`):
+
+   git clone https://github.com/JordyChamba/AutomatizacionSRI_JAVA.git
+
+3) Actualizar variables de entorno/CI para usar la nueva `GOOGLE_API_KEY`.
+
+He documentado el incidente en `SECURITY.md` y creado herramientas para limpiar el historial si hace falta.
+
+Si tienes dudas o encuentras actividad sospechosa, contacta a Jordy Chamba <jordy_chamba@hotmail.com>.
+
+Gracias,
+Jordy
